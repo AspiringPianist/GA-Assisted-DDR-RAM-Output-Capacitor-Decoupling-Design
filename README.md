@@ -1,6 +1,6 @@
 # DDR4 PDN Optimization Pipeline Guide
 
-This project contains a comprehensive, 7-stage pipeline to synthesize workload-specific DDR4 power transient waveforms and use a Genetic Algorithm (GA) to optimize a dual-rail decoupling capacitor network (VDDQ and VTT) for a commercial LTSpice regulator (`LTM4632`).
+This project contains a comprehensive, 7-stage pipeline to synthesize workload-specific DDR4 power transient waveforms and use a Genetic Algorithm (GA) to optimize a dual-rail decoupling capacitor network (VDDQ and VTT) for a commercial LTSpice regulator (`LTM4632`). This [presentation]('Output Capacitor and Decoupling Design for DDR Power Rails copy.pdf') explains 150% of the project.
 
 ## Stage 1: Workload Compilation (GEM5/Assembly)
 
