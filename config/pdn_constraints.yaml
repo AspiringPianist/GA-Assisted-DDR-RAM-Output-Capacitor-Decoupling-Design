@@ -1,0 +1,15 @@
+rails:
+  VDDQ:
+    nominal_v: 1.2
+    tolerance_v: 0.06
+    lmax_pH: 5.93
+    nmax_caps: 63
+  VTT:
+    nominal_v: 0.6
+    tolerance_v: 0.04
+    lmax_pH: 16.25
+    nmax_caps: 20
+via:
+  board_thickness_in: 0.05
+  via_diameter_in: 0.013
+  l_via_nH: 0.948

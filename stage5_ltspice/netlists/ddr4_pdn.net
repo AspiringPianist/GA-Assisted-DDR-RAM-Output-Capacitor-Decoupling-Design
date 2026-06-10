@@ -1,0 +1,38 @@
+* DDR4 PDN Base Netlist for GA Optimization
+V1 IN 0 12
+R2 N001 0 60k
+XU1 NC_01 VTT IN 0 MP_02 IN 0 NC_03 MP_04 VDDQ N004 VDDQ MP_05 MP_06 MP_07 MP_08 MP_09 VTTR NC_10 MP_11 IN MP_12 MP_13 MP_14 MP_15 N002 N003 N001 LTM4632
+C4 IN 0 4.7u x2 V=16 Irms=0 Rser=5m Lser=0
+C3 IN 0 47u x2 V=25 Irms=0 Rser=5m Lser=0
+C6 VDDQ N001 10p
+C2 N003 0 .0001u
+C9 VTTR 0 10n
+Rload3 VTTR 0 75
+
+* Bulk Capacitors (Fixed)
+C7 VDDQ 0 100u V=25 Irms=0 Rser=5m Lser=0.87n
+C8 VTT 0 100u V=25 Irms=0 Rser=5m Lser=0.87n
+
+* Workload Current Sources
+I1 VDDQ 0 PWL file="dummy.pwl"
+I2 VTT 0 PWL file="dummy_vtt.pwl"
+
+* AC Sources for Impedance Measurement (usually 0 in transient)
+Iac_vddq VDDQ 0 AC 0
+Iac_vtt VTT 0 AC 0
+
+* Decoupling Network Placeholders
+;DECOUPLING_NETWORK_VDDQ
+;DECOUPLING_NETWORK_VTT
+
+.options plotwinsize=0
+.options numdgt=7
+.options method=gear
+.options cshunt=1e-15
+.options reltol=0.005
+.options trtol=7
+.options abstol=1e-10
+.tran .8m startup
+.lib LTM4632.sub
+.backanno
+.end

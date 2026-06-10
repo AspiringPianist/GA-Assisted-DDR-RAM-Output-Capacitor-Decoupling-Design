@@ -1,0 +1,48 @@
+capacitors:
+  - part: "GRM155R60J106ME11"    # Murata 10uF 0402
+    C_F:      10.0e-6
+    ESR_ohm:  0.007
+    ESL_H:    0.45e-9
+    package:  "0402"
+
+  - part: "GRM188R60J475ME19"    # Murata 4.7uF 0603
+    C_F:      4.7e-6
+    ESR_ohm:  0.012
+    ESL_H:    0.87e-9
+    package:  "0603"
+
+  - part: "GRM033R60J104KE19"    # Murata 100nF 0201
+    C_F:      100.0e-9
+    ESR_ohm:  0.050
+    ESL_H:    0.25e-9
+    package:  "0201"
+
+  - part: "GRM155R60J225ME47"    # Murata 2.2uF 0402
+    C_F:      2.2e-6
+    ESR_ohm:  0.010
+    ESL_H:    0.45e-9
+    package:  "0402"
+
+  - part: "GRM155R60J105ME11"    # Murata 1uF 0402
+    C_F:      1.0e-6
+    ESR_ohm:  0.015
+    ESL_H:    0.45e-9
+    package:  "0402"
+
+  - part: "GRM033R60J474KE19"    # Murata 470nF 0201
+    C_F:      470.0e-9
+    ESR_ohm:  0.030
+    ESL_H:    0.25e-9
+    package:  "0201"
+
+  - part: "GRM21BR60J226ME39"    # Murata 22uF 0805
+    C_F:      22.0e-6
+    ESR_ohm:  0.005
+    ESL_H:    1.20e-9
+    package:  "0805"
+
+  - part: "GRM188R60J106ME47"    # Murata 10uF 0603
+    C_F:      10.0e-6
+    ESR_ohm:  0.008
+    ESL_H:    0.87e-9
+    package:  "0603"

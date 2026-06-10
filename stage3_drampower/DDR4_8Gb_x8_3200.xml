@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DDR4 8Gb x8 3200 Device Specification for DRAMPower -->
+<!-- IDD values from Micron MT40A1G8SA-062E datasheet -->
+<memspec>
+  <memarchitecturespec>
+    <nbrOfBanks>16</nbrOfBanks>
+    <nbrOfRanks>1</nbrOfRanks>
+    <nbrOfBankGroups>4</nbrOfBankGroups>
+    <dataRate>2</dataRate>
+    <burstLength>8</burstLength>
+    <width>8</width>
+    <dll>true</dll>
+  </memarchitecturespec>
+
+  <memtimingspec>
+    <!-- All timings in clock cycles at tCK = 0.625ns (DDR4-3200) -->
+    <clkMhz>1600</clkMhz>
+    <RC>76</RC>
+    <RCD>22</RCD>
+    <CCD>8</CCD>
+    <CCD_S>4</CCD_S>
+    <RRD>8</RRD>
+    <RRD_S>4</RRD_S>
+    <FAW>40</FAW>
+    <TAW>40</TAW>
+    <WTR>12</WTR>
+    <WTR_S>4</WTR_S>
+    <REFI>12480</REFI>
+    <RL>22</RL>
+    <RP>22</RP>
+    <RFC>560</RFC>
+    <RAS>52</RAS>
+    <WL>16</WL>
+    <AL>0</AL>
+    <DQSCK>0</DQSCK>
+    <RTP>12</RTP>
+    <WR>24</WR>
+    <XP>8</XP>
+    <XPDLL>40</XPDLL>
+    <XS>576</XS>
+    <XSDLL>1536</XSDLL>
+    <CKE>8</CKE>
+    <CKESR>9</CKESR>
+  </memtimingspec>
+
+  <mempowerspec>
+    <!-- IDD values in mA, VDD = 1.2V -->
+    <idd0>58</idd0>
+    <idd02>58</idd02>
+    <idd2p0>25</idd2p0>
+    <idd2p02>25</idd2p02>
+    <idd2p1>25</idd2p1>
+    <idd2p12>25</idd2p12>
+    <idd2n>37</idd2n>
+    <idd2n2>37</idd2n2>
+    <idd3p0>42</idd3p0>
+    <idd3p02>42</idd3p02>
+    <idd3p1>42</idd3p1>
+    <idd3p12>42</idd3p12>
+    <idd3n>47</idd3n>
+    <idd3n2>47</idd3n2>
+    <idd4r>225</idd4r>
+    <idd4r2>225</idd4r2>
+    <idd4w>232</idd4w>
+    <idd4w2>232</idd4w2>
+    <idd5>280</idd5>
+    <idd52>280</idd52>
+    <idd6>12</idd6>
+    <idd62>12</idd62>
+    <vdd>1.20</vdd>
+    <vdd2>1.20</vdd2>
+  </mempowerspec>
+</memspec>

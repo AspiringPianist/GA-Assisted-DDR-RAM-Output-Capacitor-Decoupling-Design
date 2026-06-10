@@ -1,0 +1,12 @@
+ddr4:
+  vddq_v: 1.2
+  vddq_tolerance_v: 0.06
+  vpp_v: 2.5
+  odt_ohm: 48
+  chips_per_dimm: 8
+  max_simultaneous_nets: 81
+  speed_grade: DDR4-3200
+  clock_mhz: 1600
+  switching_time_ns: 0.2
+  vtt_v: 0.6
+  vtt_tolerance_v: 0.04

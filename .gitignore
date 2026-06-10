@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual env
+venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# Simulation outputs
+*.raw
+*.log
+*.op.raw
+sim_results/
+
+# Generated files
+stage4_converter/pwl_files/*.pwl
+stage6_ga/ga_results/*.pkl
+stage7_ablation/ablation_results/
+
+# OS
+.DS_Store
+Thumbs.db
